@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,17 +9,17 @@
 #define H_ID_AA64AFR0_EL1
 
 union id_aa64afr0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long impdef_3_0 : 4;
-      unsigned long impdef_7_4 : 4;
-      unsigned long impdef_11_8 : 4;
-      unsigned long impdef_15_12 : 4;
-      unsigned long impdef_19_16 : 4;
-      unsigned long impdef_23_20 : 4;
-      unsigned long impdef_27_24 : 4;
-      unsigned long impdef_31_28 : 4;
-      unsigned long res0_63_32 : 32;
+      uint64 impdef_3_0 : 4;
+      uint64 impdef_7_4 : 4;
+      uint64 impdef_11_8 : 4;
+      uint64 impdef_15_12 : 4;
+      uint64 impdef_19_16 : 4;
+      uint64 impdef_23_20 : 4;
+      uint64 impdef_27_24 : 4;
+      uint64 impdef_31_28 : 4;
+      uint64 res0_63_32 : 32;
    };
 };
 

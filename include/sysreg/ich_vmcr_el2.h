@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,20 +9,20 @@
 #define H_ICH_VMCR_EL2
 
 union ich_vmcr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long veng0 : 1;
-      unsigned long veng1 : 1;
-      unsigned long vackctl : 1;
-      unsigned long vfiqen : 1;
-      unsigned long vcbpr : 1;
-      unsigned long res0_8_5 : 4;
-      unsigned long veoim : 1;
-      unsigned long res0_17_10 : 8;
-      unsigned long vbpr1 : 3;
-      unsigned long vbpr0 : 3;
-      unsigned long vpmr : 8;
-      unsigned long res0_63_32 : 32;
+      uint64 veng0 : 1;
+      uint64 veng1 : 1;
+      uint64 vackctl : 1;
+      uint64 vfiqen : 1;
+      uint64 vcbpr : 1;
+      uint64 res0_8_5 : 4;
+      uint64 veoim : 1;
+      uint64 res0_17_10 : 8;
+      uint64 vbpr1 : 3;
+      uint64 vbpr0 : 3;
+      uint64 vpmr : 8;
+      uint64 res0_63_32 : 32;
    };
 };
 

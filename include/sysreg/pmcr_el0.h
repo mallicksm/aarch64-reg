@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,21 +9,21 @@
 #define H_PMCR_EL0
 
 union pmcr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long e : 1;
-      unsigned long p : 1;
-      unsigned long c : 1;
-      unsigned long d : 1;
-      unsigned long x : 1;
-      unsigned long dp : 1;
-      unsigned long lc : 1;
-      unsigned long lp : 1;
-      unsigned long res0_10_8 : 3;
-      unsigned long n : 5;
-      unsigned long idcode : 8;
-      unsigned long imp : 8;
-      unsigned long res0_63_32 : 32;
+      uint64 e : 1;
+      uint64 p : 1;
+      uint64 c : 1;
+      uint64 d : 1;
+      uint64 x : 1;
+      uint64 dp : 1;
+      uint64 lc : 1;
+      uint64 lp : 1;
+      uint64 res0_10_8 : 3;
+      uint64 n : 5;
+      uint64 idcode : 8;
+      uint64 imp : 8;
+      uint64 res0_63_32 : 32;
    };
 };
 

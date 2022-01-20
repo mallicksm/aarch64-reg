@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,15 +9,15 @@
 #define H_CPACR_EL1
 
 union cpacr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_15_0 : 16;
-      unsigned long zen : 2;
-      unsigned long res0_19_18 : 2;
-      unsigned long fpen : 2;
-      unsigned long res0_27_22 : 6;
-      unsigned long tta : 1;
-      unsigned long res0_63_29 : 35;
+      uint64 res0_15_0 : 16;
+      uint64 zen : 2;
+      uint64 res0_19_18 : 2;
+      uint64 fpen : 2;
+      uint64 res0_27_22 : 6;
+      uint64 tta : 1;
+      uint64 res0_63_29 : 35;
    };
 };
 

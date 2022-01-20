@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,18 +9,18 @@
 #define H_PMCCFILTR_EL0
 
 union pmccfiltr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_23_0 : 24;
-      unsigned long sh : 1;
-      unsigned long res0_25 : 1;
-      unsigned long m : 1;
-      unsigned long nsh : 1;
-      unsigned long nsu : 1;
-      unsigned long nsk : 1;
-      unsigned long u : 1;
-      unsigned long p : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 res0_23_0 : 24;
+      uint64 sh : 1;
+      uint64 res0_25 : 1;
+      uint64 m : 1;
+      uint64 nsh : 1;
+      uint64 nsu : 1;
+      uint64 nsk : 1;
+      uint64 u : 1;
+      uint64 p : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

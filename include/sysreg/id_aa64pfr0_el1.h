@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,24 +9,24 @@
 #define H_ID_AA64PFR0_EL1
 
 union id_aa64pfr0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long el0 : 4;
-      unsigned long el1 : 4;
-      unsigned long el2 : 4;
-      unsigned long el3 : 4;
-      unsigned long fp : 4;
-      unsigned long advsimd : 4;
-      unsigned long gic : 4;
-      unsigned long ras : 4;
-      unsigned long sve : 4;
-      unsigned long sel2 : 4;
-      unsigned long mpam : 4;
-      unsigned long amu : 4;
-      unsigned long dit : 4;
-      unsigned long res0_55_52 : 4;
-      unsigned long csv2 : 4;
-      unsigned long csv3 : 4;
+      uint64 el0 : 4;
+      uint64 el1 : 4;
+      uint64 el2 : 4;
+      uint64 el3 : 4;
+      uint64 fp : 4;
+      uint64 advsimd : 4;
+      uint64 gic : 4;
+      uint64 ras : 4;
+      uint64 sve : 4;
+      uint64 sel2 : 4;
+      uint64 mpam : 4;
+      uint64 amu : 4;
+      uint64 dit : 4;
+      uint64 res0_55_52 : 4;
+      uint64 csv2 : 4;
+      uint64 csv3 : 4;
    };
 };
 

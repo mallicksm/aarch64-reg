@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,23 +9,23 @@
 #define H_ID_AA64ISAR1_EL1
 
 union id_aa64isar1_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long dpb : 4;
-      unsigned long apa : 4;
-      unsigned long api : 4;
-      unsigned long jscvt : 4;
-      unsigned long fcma : 4;
-      unsigned long lrcpc : 4;
-      unsigned long gpa : 4;
-      unsigned long gpi : 4;
-      unsigned long frintts : 4;
-      unsigned long sb : 4;
-      unsigned long specres : 4;
-      unsigned long bf16 : 4;
-      unsigned long dgh : 4;
-      unsigned long i8mm : 4;
-      unsigned long res0_63_56 : 8;
+      uint64 dpb : 4;
+      uint64 apa : 4;
+      uint64 api : 4;
+      uint64 jscvt : 4;
+      uint64 fcma : 4;
+      uint64 lrcpc : 4;
+      uint64 gpa : 4;
+      uint64 gpi : 4;
+      uint64 frintts : 4;
+      uint64 sb : 4;
+      uint64 specres : 4;
+      uint64 bf16 : 4;
+      uint64 dgh : 4;
+      uint64 i8mm : 4;
+      uint64 res0_63_56 : 8;
    };
 };
 

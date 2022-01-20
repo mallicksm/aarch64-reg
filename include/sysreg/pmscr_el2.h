@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,16 +9,16 @@
 #define H_PMSCR_EL2
 
 union pmscr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long e0hspe : 1;
-      unsigned long e2spe : 1;
-      unsigned long res0_2 : 1;
-      unsigned long cx : 1;
-      unsigned long pa : 1;
-      unsigned long ts : 1;
-      unsigned long pct : 2;
-      unsigned long res0_63_8 : 56;
+      uint64 e0hspe : 1;
+      uint64 e2spe : 1;
+      uint64 res0_2 : 1;
+      uint64 cx : 1;
+      uint64 pa : 1;
+      uint64 ts : 1;
+      uint64 pct : 2;
+      uint64 res0_63_8 : 56;
    };
 };
 

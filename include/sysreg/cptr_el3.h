@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,18 +9,18 @@
 #define H_CPTR_EL3
 
 union cptr_el3 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_7_0 : 8;
-      unsigned long ez : 1;
-      unsigned long res0_9 : 1;
-      unsigned long tfp : 1;
-      unsigned long res0_19_11 : 9;
-      unsigned long tta : 1;
-      unsigned long res0_29_21 : 9;
-      unsigned long tam : 1;
-      unsigned long tcpac : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 res0_7_0 : 8;
+      uint64 ez : 1;
+      uint64 res0_9 : 1;
+      uint64 tfp : 1;
+      uint64 res0_19_11 : 9;
+      uint64 tta : 1;
+      uint64 res0_29_21 : 9;
+      uint64 tam : 1;
+      uint64 tcpac : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

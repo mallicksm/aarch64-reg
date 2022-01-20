@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,17 +9,17 @@
 #define H_ICH_MISR_EL2
 
 union ich_misr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long eoi : 1;
-      unsigned long u : 1;
-      unsigned long lrenp : 1;
-      unsigned long np : 1;
-      unsigned long vgrp0e : 1;
-      unsigned long vgrp0d : 1;
-      unsigned long vgrp1e : 1;
-      unsigned long vgrp1d : 1;
-      unsigned long res0_63_8 : 56;
+      uint64 eoi : 1;
+      uint64 u : 1;
+      uint64 lrenp : 1;
+      uint64 np : 1;
+      uint64 vgrp0e : 1;
+      uint64 vgrp0d : 1;
+      uint64 vgrp1e : 1;
+      uint64 vgrp1d : 1;
+      uint64 res0_63_8 : 56;
    };
 };
 

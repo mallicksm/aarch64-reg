@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,22 +9,22 @@
 #define H_ID_AA64DFR0_EL1
 
 union id_aa64dfr0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long debugver : 4;
-      unsigned long tracever : 4;
-      unsigned long pmuver : 4;
-      unsigned long brps : 4;
-      unsigned long res0_19_16 : 4;
-      unsigned long wrps : 4;
-      unsigned long res0_27_24 : 4;
-      unsigned long ctx_cmps : 4;
-      unsigned long pmsver : 4;
-      unsigned long doublelock : 4;
-      unsigned long tracefilt : 4;
-      unsigned long res0_47_44 : 4;
-      unsigned long mtpmu : 4;
-      unsigned long res0_63_52 : 12;
+      uint64 debugver : 4;
+      uint64 tracever : 4;
+      uint64 pmuver : 4;
+      uint64 brps : 4;
+      uint64 res0_19_16 : 4;
+      uint64 wrps : 4;
+      uint64 res0_27_24 : 4;
+      uint64 ctx_cmps : 4;
+      uint64 pmsver : 4;
+      uint64 doublelock : 4;
+      uint64 tracefilt : 4;
+      uint64 res0_47_44 : 4;
+      uint64 mtpmu : 4;
+      uint64 res0_63_52 : 12;
    };
 };
 

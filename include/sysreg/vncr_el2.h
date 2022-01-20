@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_VNCR_EL2
 
 union vncr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_11_0 : 12;
-      unsigned long baddr : 41;
-      unsigned long ress : 11;
+      uint64 res0_11_0 : 12;
+      uint64 baddr : 41;
+      uint64 ress : 11;
    };
 };
 

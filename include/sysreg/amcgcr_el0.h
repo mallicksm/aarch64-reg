@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_AMCGCR_EL0
 
 union amcgcr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long cg0nc : 8;
-      unsigned long cg1nc : 8;
-      unsigned long res0_63_16 : 48;
+      uint64 cg0nc : 8;
+      uint64 cg1nc : 8;
+      uint64 res0_63_16 : 48;
    };
 };
 

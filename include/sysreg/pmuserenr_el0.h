@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_PMUSERENR_EL0
 
 union pmuserenr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long en : 1;
-      unsigned long sw : 1;
-      unsigned long cr : 1;
-      unsigned long er : 1;
-      unsigned long res0_63_4 : 60;
+      uint64 en : 1;
+      uint64 sw : 1;
+      uint64 cr : 1;
+      uint64 er : 1;
+      uint64 res0_63_4 : 60;
    };
 };
 

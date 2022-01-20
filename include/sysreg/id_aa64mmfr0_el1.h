@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,23 +9,23 @@
 #define H_ID_AA64MMFR0_EL1
 
 union id_aa64mmfr0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long parange : 4;
-      unsigned long asidbits : 4;
-      unsigned long bigend : 4;
-      unsigned long snsmem : 4;
-      unsigned long bigendel0 : 4;
-      unsigned long tgran16 : 4;
-      unsigned long tgran64 : 4;
-      unsigned long tgran4 : 4;
-      unsigned long tgran16_2 : 4;
-      unsigned long tgran64_2 : 4;
-      unsigned long tgran4_2 : 4;
-      unsigned long exs : 4;
-      unsigned long res0_55_48 : 8;
-      unsigned long fgt : 4;
-      unsigned long ecv : 4;
+      uint64 parange : 4;
+      uint64 asidbits : 4;
+      uint64 bigend : 4;
+      uint64 snsmem : 4;
+      uint64 bigendel0 : 4;
+      uint64 tgran16 : 4;
+      uint64 tgran64 : 4;
+      uint64 tgran4 : 4;
+      uint64 tgran16_2 : 4;
+      uint64 tgran64_2 : 4;
+      uint64 tgran4_2 : 4;
+      uint64 exs : 4;
+      uint64 res0_55_48 : 8;
+      uint64 fgt : 4;
+      uint64 ecv : 4;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,20 +9,20 @@
 #define H_MPAMIDR_EL1
 
 union mpamidr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long partid_max : 16;
-      unsigned long res0_16 : 1;
-      unsigned long has_hcr : 1;
-      unsigned long vpmr_max : 3;
-      unsigned long res0_31_21 : 11;
-      unsigned long pmg_max : 8;
-      unsigned long res0_57_40 : 18;
-      unsigned long has_tidr : 1;
-      unsigned long res0_59 : 1;
-      unsigned long has_force_ns : 1;
-      unsigned long has_sdeflt : 1;
-      unsigned long res0_63_62 : 2;
+      uint64 partid_max : 16;
+      uint64 res0_16 : 1;
+      uint64 has_hcr : 1;
+      uint64 vpmr_max : 3;
+      uint64 res0_31_21 : 11;
+      uint64 pmg_max : 8;
+      uint64 res0_57_40 : 18;
+      uint64 has_tidr : 1;
+      uint64 res0_59 : 1;
+      uint64 has_force_ns : 1;
+      uint64 has_sdeflt : 1;
+      uint64 res0_63_62 : 2;
    };
 };
 

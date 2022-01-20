@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_ELR_EL1
 
 union elr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Return_address : 64;
+      uint64 Return_address : 64;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,28 +9,28 @@
 #define H_VTCR_EL2
 
 union vtcr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long t0sz : 6;
-      unsigned long sl0 : 2;
-      unsigned long irgn0 : 2;
-      unsigned long orgn0 : 2;
-      unsigned long sh0 : 2;
-      unsigned long tg0 : 2;
-      unsigned long ps : 3;
-      unsigned long vs : 1;
-      unsigned long res0_20 : 1;
-      unsigned long ha : 1;
-      unsigned long hd : 1;
-      unsigned long res0_24_23 : 2;
-      unsigned long hwu59 : 1;
-      unsigned long hwu60 : 1;
-      unsigned long hwu61 : 1;
-      unsigned long hwu62 : 1;
-      unsigned long nsw : 1;
-      unsigned long nsa : 1;
-      unsigned long res1_31 : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 t0sz : 6;
+      uint64 sl0 : 2;
+      uint64 irgn0 : 2;
+      uint64 orgn0 : 2;
+      uint64 sh0 : 2;
+      uint64 tg0 : 2;
+      uint64 ps : 3;
+      uint64 vs : 1;
+      uint64 res0_20 : 1;
+      uint64 ha : 1;
+      uint64 hd : 1;
+      uint64 res0_24_23 : 2;
+      uint64 hwu59 : 1;
+      uint64 hwu60 : 1;
+      uint64 hwu61 : 1;
+      uint64 hwu62 : 1;
+      uint64 nsw : 1;
+      uint64 nsa : 1;
+      uint64 res1_31 : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_PMSICR_EL1
 
 union pmsicr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long count : 32;
-      unsigned long res0_55_32 : 24;
-      unsigned long ecount : 8;
+      uint64 count : 32;
+      uint64 res0_55_32 : 24;
+      uint64 ecount : 8;
    };
 };
 

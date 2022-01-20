@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_HPFAR_EL2
 
 union hpfar_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_3_0 : 4;
-      unsigned long fipa_47_12_ : 36;
-      unsigned long fipa_51_48_ : 4;
-      unsigned long res0_62_44 : 19;
-      unsigned long ns : 1;
+      uint64 res0_3_0 : 4;
+      uint64 fipa_47_12_ : 36;
+      uint64 fipa_51_48_ : 4;
+      uint64 res0_62_44 : 19;
+      uint64 ns : 1;
    };
 };
 

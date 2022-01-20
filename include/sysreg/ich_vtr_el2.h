@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,19 +9,19 @@
 #define H_ICH_VTR_EL2
 
 union ich_vtr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long listregs : 5;
-      unsigned long res0_17_5 : 13;
-      unsigned long dvim : 1;
-      unsigned long tds : 1;
-      unsigned long nv4 : 1;
-      unsigned long a3v : 1;
-      unsigned long seis : 1;
-      unsigned long idbits : 3;
-      unsigned long prebits : 3;
-      unsigned long pribits : 3;
-      unsigned long res0_63_32 : 32;
+      uint64 listregs : 5;
+      uint64 res0_17_5 : 13;
+      uint64 dvim : 1;
+      uint64 tds : 1;
+      uint64 nv4 : 1;
+      uint64 a3v : 1;
+      uint64 seis : 1;
+      uint64 idbits : 3;
+      uint64 prebits : 3;
+      uint64 pribits : 3;
+      uint64 res0_63_32 : 32;
    };
 };
 

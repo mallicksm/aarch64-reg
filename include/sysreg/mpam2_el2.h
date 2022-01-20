@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,18 +9,18 @@
 #define H_MPAM2_EL2
 
 union mpam2_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long partid_i : 16;
-      unsigned long partid_d : 16;
-      unsigned long pmg_i : 8;
-      unsigned long pmg_d : 8;
-      unsigned long trapmpam1el1 : 1;
-      unsigned long trapmpam0el1 : 1;
-      unsigned long res0_57_50 : 8;
-      unsigned long tidr : 1;
-      unsigned long res0_62_59 : 4;
-      unsigned long mpamen : 1;
+      uint64 partid_i : 16;
+      uint64 partid_d : 16;
+      uint64 pmg_i : 8;
+      uint64 pmg_d : 8;
+      uint64 trapmpam1el1 : 1;
+      uint64 trapmpam0el1 : 1;
+      uint64 res0_57_50 : 8;
+      uint64 tidr : 1;
+      uint64 res0_62_59 : 4;
+      uint64 mpamen : 1;
    };
 };
 

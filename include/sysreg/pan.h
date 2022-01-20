@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_PAN
 
 union pan {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_21_0 : 22;
-      unsigned long pan : 1;
-      unsigned long res0_63_23 : 41;
+      uint64 res0_21_0 : 22;
+      uint64 pan : 1;
+      uint64 res0_63_23 : 41;
    };
 };
 

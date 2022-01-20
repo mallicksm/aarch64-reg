@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_PMBIDR_EL1
 
 union pmbidr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long align : 4;
-      unsigned long p : 1;
-      unsigned long f : 1;
-      unsigned long res0_63_6 : 58;
+      uint64 align : 4;
+      uint64 p : 1;
+      uint64 f : 1;
+      uint64 res0_63_6 : 58;
    };
 };
 

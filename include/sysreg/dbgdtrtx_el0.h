@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_DBGDTRTX_EL0
 
 union dbgdtrtx_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Return_DTRTX : 32;
-      unsigned long res0_63_32 : 32;
+      uint64 Return_DTRTX : 32;
+      uint64 res0_63_32 : 32;
    };
 };
 

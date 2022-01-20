@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_TRFCR_EL1
 
 union trfcr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long e0tre : 1;
-      unsigned long e1tre : 1;
-      unsigned long res0_4_2 : 3;
-      unsigned long ts : 2;
-      unsigned long res0_63_7 : 57;
+      uint64 e0tre : 1;
+      uint64 e1tre : 1;
+      uint64 res0_4_2 : 3;
+      uint64 ts : 2;
+      uint64 res0_63_7 : 57;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_PMSIRR_EL1
 
 union pmsirr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long rnd : 1;
-      unsigned long res0_7_1 : 7;
-      unsigned long interval : 24;
-      unsigned long res0_63_32 : 32;
+      uint64 rnd : 1;
+      uint64 res0_7_1 : 7;
+      uint64 interval : 24;
+      uint64 res0_63_32 : 32;
    };
 };
 

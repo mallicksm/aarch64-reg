@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_VBAR_EL3
 
 union vbar_el3 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_10_0 : 11;
-      unsigned long Vector_Base_Address : 53;
+      uint64 res0_10_0 : 11;
+      uint64 Vector_Base_Address : 53;
    };
 };
 

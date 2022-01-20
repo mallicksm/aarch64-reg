@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_DBGPRCR_EL1
 
 union dbgprcr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long corenpdrq : 1;
-      unsigned long res0_63_1 : 63;
+      uint64 corenpdrq : 1;
+      uint64 res0_63_1 : 63;
    };
 };
 

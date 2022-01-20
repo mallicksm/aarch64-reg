@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,18 +9,18 @@
 #define H_ICC_SGI0R_EL1
 
 union icc_sgi0r_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long targetlist : 16;
-      unsigned long aff1 : 8;
-      unsigned long intid : 4;
-      unsigned long res0_31_28 : 4;
-      unsigned long aff2 : 8;
-      unsigned long irm : 1;
-      unsigned long res0_43_41 : 3;
-      unsigned long rs : 4;
-      unsigned long aff3 : 8;
-      unsigned long res0_63_56 : 8;
+      uint64 targetlist : 16;
+      uint64 aff1 : 8;
+      uint64 intid : 4;
+      uint64 res0_31_28 : 4;
+      uint64 aff2 : 8;
+      uint64 irm : 1;
+      uint64 res0_43_41 : 3;
+      uint64 rs : 4;
+      uint64 aff3 : 8;
+      uint64 res0_63_56 : 8;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_OSDTRRX_EL1
 
 union osdtrrx_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Update_DTRRX_without_side_effect : 32;
-      unsigned long res0_63_32 : 32;
+      uint64 Update_DTRRX_without_side_effect : 32;
+      uint64 res0_63_32 : 32;
    };
 };
 

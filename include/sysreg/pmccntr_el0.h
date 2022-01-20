@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_PMCCNTR_EL0
 
 union pmccntr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long ccnt : 64;
+      uint64 ccnt : 64;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_LORID_EL1
 
 union lorid_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long lr : 8;
-      unsigned long res0_15_8 : 8;
-      unsigned long ld : 8;
-      unsigned long res0_63_24 : 40;
+      uint64 lr : 8;
+      uint64 res0_15_8 : 8;
+      uint64 ld : 8;
+      uint64 res0_63_24 : 40;
    };
 };
 

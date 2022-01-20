@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_ICC_SRE_EL1
 
 union icc_sre_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long sre : 1;
-      unsigned long dfb : 1;
-      unsigned long dib : 1;
-      unsigned long res0_63_3 : 61;
+      uint64 sre : 1;
+      uint64 dfb : 1;
+      uint64 dib : 1;
+      uint64 res0_63_3 : 61;
    };
 };
 

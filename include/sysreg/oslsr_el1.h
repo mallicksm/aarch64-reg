@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_OSLSR_EL1
 
 union oslsr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long oslm_0_ : 1;
-      unsigned long oslk : 1;
-      unsigned long ntt : 1;
-      unsigned long oslm_1_ : 1;
-      unsigned long res0_63_4 : 60;
+      uint64 oslm_0_ : 1;
+      uint64 oslk : 1;
+      uint64 ntt : 1;
+      uint64 oslm_1_ : 1;
+      uint64 res0_63_4 : 60;
    };
 };
 

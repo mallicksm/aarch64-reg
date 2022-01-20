@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,59 +9,59 @@
 #define H_HDFGRTR_EL2
 
 union hdfgrtr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long dbgbcrn_el1 : 1;
-      unsigned long dbgbvrn_el1 : 1;
-      unsigned long dbgwcrn_el1 : 1;
-      unsigned long dbgwvrn_el1 : 1;
-      unsigned long mdscr_el1 : 1;
-      unsigned long dbgclaim : 1;
-      unsigned long dbgauthstatus_el1 : 1;
-      unsigned long dbgprcr_el1 : 1;
-      unsigned long res0_8 : 1;
-      unsigned long oslsr_el1 : 1;
-      unsigned long oseccr_el1 : 1;
-      unsigned long osdlr_el1 : 1;
-      unsigned long pmevcntrn_el0 : 1;
-      unsigned long pmevtypern_el0 : 1;
-      unsigned long pmccfiltr_el0 : 1;
-      unsigned long pmccntr_el0 : 1;
-      unsigned long pmcnten : 1;
-      unsigned long pminten : 1;
-      unsigned long pmovs : 1;
-      unsigned long pmselr_el0 : 1;
-      unsigned long res0_21_20 : 2;
-      unsigned long pmmir_el1 : 1;
-      unsigned long pmblimitr_el1 : 1;
-      unsigned long pmbptr_el1 : 1;
-      unsigned long pmbsr_el1 : 1;
-      unsigned long pmscr_el1 : 1;
-      unsigned long pmsevfr_el1 : 1;
-      unsigned long pmsfcr_el1 : 1;
-      unsigned long pmsicr_el1 : 1;
-      unsigned long pmsidr_el1 : 1;
-      unsigned long pmsirr_el1 : 1;
-      unsigned long pmslatfr_el1 : 1;
-      unsigned long trc : 1;
-      unsigned long trcauthstatus : 1;
-      unsigned long trcauxctlr : 1;
-      unsigned long trcclaim : 1;
-      unsigned long trccntvrn : 1;
-      unsigned long res0_39_38 : 2;
-      unsigned long trcid : 1;
-      unsigned long trcimspecn : 1;
-      unsigned long res0_42 : 1;
-      unsigned long trcoslsr : 1;
-      unsigned long trcprgctlr : 1;
-      unsigned long trcseqstr : 1;
-      unsigned long trcsscsrn : 1;
-      unsigned long trcstatr : 1;
-      unsigned long trcvictlr : 1;
-      unsigned long res0_56_49 : 8;
-      unsigned long pmuserenr_el0 : 1;
-      unsigned long pmceidn_el0 : 1;
-      unsigned long res0_63_59 : 5;
+      uint64 dbgbcrn_el1 : 1;
+      uint64 dbgbvrn_el1 : 1;
+      uint64 dbgwcrn_el1 : 1;
+      uint64 dbgwvrn_el1 : 1;
+      uint64 mdscr_el1 : 1;
+      uint64 dbgclaim : 1;
+      uint64 dbgauthstatus_el1 : 1;
+      uint64 dbgprcr_el1 : 1;
+      uint64 res0_8 : 1;
+      uint64 oslsr_el1 : 1;
+      uint64 oseccr_el1 : 1;
+      uint64 osdlr_el1 : 1;
+      uint64 pmevcntrn_el0 : 1;
+      uint64 pmevtypern_el0 : 1;
+      uint64 pmccfiltr_el0 : 1;
+      uint64 pmccntr_el0 : 1;
+      uint64 pmcnten : 1;
+      uint64 pminten : 1;
+      uint64 pmovs : 1;
+      uint64 pmselr_el0 : 1;
+      uint64 res0_21_20 : 2;
+      uint64 pmmir_el1 : 1;
+      uint64 pmblimitr_el1 : 1;
+      uint64 pmbptr_el1 : 1;
+      uint64 pmbsr_el1 : 1;
+      uint64 pmscr_el1 : 1;
+      uint64 pmsevfr_el1 : 1;
+      uint64 pmsfcr_el1 : 1;
+      uint64 pmsicr_el1 : 1;
+      uint64 pmsidr_el1 : 1;
+      uint64 pmsirr_el1 : 1;
+      uint64 pmslatfr_el1 : 1;
+      uint64 trc : 1;
+      uint64 trcauthstatus : 1;
+      uint64 trcauxctlr : 1;
+      uint64 trcclaim : 1;
+      uint64 trccntvrn : 1;
+      uint64 res0_39_38 : 2;
+      uint64 trcid : 1;
+      uint64 trcimspecn : 1;
+      uint64 res0_42 : 1;
+      uint64 trcoslsr : 1;
+      uint64 trcprgctlr : 1;
+      uint64 trcseqstr : 1;
+      uint64 trcsscsrn : 1;
+      uint64 trcstatr : 1;
+      uint64 trcvictlr : 1;
+      uint64 res0_56_49 : 8;
+      uint64 pmuserenr_el0 : 1;
+      uint64 pmceidn_el0 : 1;
+      uint64 res0_63_59 : 5;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_TCO
 
 union tco {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_24_0 : 25;
-      unsigned long tco : 1;
-      unsigned long res0_63_26 : 38;
+      uint64 res0_24_0 : 25;
+      uint64 tco : 1;
+      uint64 res0_63_26 : 38;
    };
 };
 

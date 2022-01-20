@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_DIT
 
 union dit {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_23_0 : 24;
-      unsigned long dit : 1;
-      unsigned long res0_63_25 : 39;
+      uint64 res0_23_0 : 24;
+      uint64 dit : 1;
+      uint64 res0_63_25 : 39;
    };
 };
 

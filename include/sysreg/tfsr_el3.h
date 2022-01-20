@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_TFSR_EL3
 
 union tfsr_el3 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long tf0 : 1;
-      unsigned long res0_63_1 : 63;
+      uint64 tf0 : 1;
+      uint64 res0_63_1 : 63;
    };
 };
 

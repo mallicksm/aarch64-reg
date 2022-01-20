@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,43 +9,43 @@
 #define H_SCTLR_EL3
 
 union sctlr_el3 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long m : 1;
-      unsigned long a : 1;
-      unsigned long c : 1;
-      unsigned long sa : 1;
-      unsigned long res1_5_4 : 2;
-      unsigned long naa : 1;
-      unsigned long res0_10_7 : 4;
-      unsigned long eos : 1;
-      unsigned long i : 1;
-      unsigned long endb : 1;
-      unsigned long res0_15_14 : 2;
-      unsigned long res1_16 : 1;
-      unsigned long res0_17 : 1;
-      unsigned long res1_18 : 1;
-      unsigned long wxn : 1;
-      unsigned long res0_20 : 1;
-      unsigned long iesb : 1;
-      unsigned long eis : 1;
-      unsigned long res1_23 : 1;
-      unsigned long res0_24 : 1;
-      unsigned long ee : 1;
-      unsigned long res0_26 : 1;
-      unsigned long enda : 1;
-      unsigned long res1_29_28 : 2;
-      unsigned long enib : 1;
-      unsigned long enia : 1;
-      unsigned long res0_35_32 : 4;
-      unsigned long bt : 1;
-      unsigned long itfsb : 1;
-      unsigned long res0_39_38 : 2;
-      unsigned long tcf : 2;
-      unsigned long res0_42 : 1;
-      unsigned long ata : 1;
-      unsigned long dssbs : 1;
-      unsigned long res0_63_45 : 19;
+      uint64 m : 1;
+      uint64 a : 1;
+      uint64 c : 1;
+      uint64 sa : 1;
+      uint64 res1_5_4 : 2;
+      uint64 naa : 1;
+      uint64 res0_10_7 : 4;
+      uint64 eos : 1;
+      uint64 i : 1;
+      uint64 endb : 1;
+      uint64 res0_15_14 : 2;
+      uint64 res1_16 : 1;
+      uint64 res0_17 : 1;
+      uint64 res1_18 : 1;
+      uint64 wxn : 1;
+      uint64 res0_20 : 1;
+      uint64 iesb : 1;
+      uint64 eis : 1;
+      uint64 res1_23 : 1;
+      uint64 res0_24 : 1;
+      uint64 ee : 1;
+      uint64 res0_26 : 1;
+      uint64 enda : 1;
+      uint64 res1_29_28 : 2;
+      uint64 enib : 1;
+      uint64 enia : 1;
+      uint64 res0_35_32 : 4;
+      uint64 bt : 1;
+      uint64 itfsb : 1;
+      uint64 res0_39_38 : 2;
+      uint64 tcf : 2;
+      uint64 res0_42 : 1;
+      uint64 ata : 1;
+      uint64 dssbs : 1;
+      uint64 res0_63_45 : 19;
    };
 };
 

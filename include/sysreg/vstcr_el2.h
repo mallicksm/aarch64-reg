@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,17 +9,17 @@
 #define H_VSTCR_EL2
 
 union vstcr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long t0sz : 6;
-      unsigned long sl0 : 2;
-      unsigned long res0_13_8 : 6;
-      unsigned long tg0 : 2;
-      unsigned long res0_28_16 : 13;
-      unsigned long sw : 1;
-      unsigned long sa : 1;
-      unsigned long res1_31 : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 t0sz : 6;
+      uint64 sl0 : 2;
+      uint64 res0_13_8 : 6;
+      uint64 tg0 : 2;
+      uint64 res0_28_16 : 13;
+      uint64 sw : 1;
+      uint64 sa : 1;
+      uint64 res1_31 : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

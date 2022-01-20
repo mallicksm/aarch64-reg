@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,16 +9,16 @@
 #define H_PMSFCR_EL1
 
 union pmsfcr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long fe : 1;
-      unsigned long ft : 1;
-      unsigned long fl : 1;
-      unsigned long res0_15_3 : 13;
-      unsigned long b : 1;
-      unsigned long ld : 1;
-      unsigned long st : 1;
-      unsigned long res0_63_19 : 45;
+      uint64 fe : 1;
+      uint64 ft : 1;
+      uint64 fl : 1;
+      uint64 res0_15_3 : 13;
+      uint64 b : 1;
+      uint64 ld : 1;
+      uint64 st : 1;
+      uint64 res0_63_19 : 45;
    };
 };
 

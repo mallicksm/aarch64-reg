@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_MPAM0_EL1
 
 union mpam0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long partid_i : 16;
-      unsigned long partid_d : 16;
-      unsigned long pmg_i : 8;
-      unsigned long pmg_d : 8;
-      unsigned long res0_63_48 : 16;
+      uint64 partid_i : 16;
+      uint64 partid_d : 16;
+      uint64 pmg_i : 8;
+      uint64 pmg_d : 8;
+      uint64 res0_63_48 : 16;
    };
 };
 

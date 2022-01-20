@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_ICV_PMR_EL1
 
 union icv_pmr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long priority : 8;
-      unsigned long res0_63_8 : 56;
+      uint64 priority : 8;
+      uint64 res0_63_8 : 56;
    };
 };
 

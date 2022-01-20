@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_LOREA_EL1
 
 union lorea_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_15_0 : 16;
-      unsigned long ea_47_16_ : 32;
-      unsigned long ea_51_48_ : 4;
-      unsigned long res0_63_52 : 12;
+      uint64 res0_15_0 : 16;
+      uint64 ea_47_16_ : 32;
+      uint64 ea_51_48_ : 4;
+      uint64 res0_63_52 : 12;
    };
 };
 

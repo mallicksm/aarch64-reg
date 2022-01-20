@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,25 +9,25 @@
 #define H_ICC_CTLR_EL3
 
 union icc_ctlr_el3 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long cbpr_el1s : 1;
-      unsigned long cbpr_el1ns : 1;
-      unsigned long eoimode_el3 : 1;
-      unsigned long eoimode_el1s : 1;
-      unsigned long eoimode_el1ns : 1;
-      unsigned long rm : 1;
-      unsigned long pmhe : 1;
-      unsigned long res0_7 : 1;
-      unsigned long pribits : 3;
-      unsigned long idbits : 3;
-      unsigned long seis : 1;
-      unsigned long a3v : 1;
-      unsigned long res0_16 : 1;
-      unsigned long nds : 1;
-      unsigned long rss : 1;
-      unsigned long extrange : 1;
-      unsigned long res0_63_20 : 44;
+      uint64 cbpr_el1s : 1;
+      uint64 cbpr_el1ns : 1;
+      uint64 eoimode_el3 : 1;
+      uint64 eoimode_el1s : 1;
+      uint64 eoimode_el1ns : 1;
+      uint64 rm : 1;
+      uint64 pmhe : 1;
+      uint64 res0_7 : 1;
+      uint64 pribits : 3;
+      uint64 idbits : 3;
+      uint64 seis : 1;
+      uint64 a3v : 1;
+      uint64 res0_16 : 1;
+      uint64 nds : 1;
+      uint64 rss : 1;
+      uint64 extrange : 1;
+      uint64 res0_63_20 : 44;
    };
 };
 

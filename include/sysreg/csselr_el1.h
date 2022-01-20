@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_CSSELR_EL1
 
 union csselr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long ind : 1;
-      unsigned long level : 3;
-      unsigned long tnd : 1;
-      unsigned long res0_63_5 : 59;
+      uint64 ind : 1;
+      uint64 level : 3;
+      uint64 tnd : 1;
+      uint64 res0_63_5 : 59;
    };
 };
 

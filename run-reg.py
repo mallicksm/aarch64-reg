@@ -26,6 +26,7 @@ PREAMBLE = f"""\
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 """
@@ -148,7 +149,7 @@ class Field():
     @property
     def decl( self ) -> str:
         return f"""
-      unsigned long {self.name} : {self.msb - self.lsb + 1};"""
+      uint64 {self.name} : {self.msb - self.lsb + 1};"""
 
 
 class Register():
@@ -208,7 +209,7 @@ class Register():
     def decl( self ) -> str:
         return f"""
 union {self.name} {{
-   unsigned long _;
+   uint64 _;
    struct {{{"".join([f.decl for f in self.fields])}
    }};
 }};

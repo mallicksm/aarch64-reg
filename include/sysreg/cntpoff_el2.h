@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_CNTPOFF_EL2
 
 union cntpoff_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Physical_offset : 64;
+      uint64 Physical_offset : 64;
    };
 };
 

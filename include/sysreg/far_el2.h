@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_FAR_EL2
 
 union far_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Faulting_Virtual_Address_for_synchronous_exceptions_taken_to_EL2 : 64;
+      uint64 Faulting_Virtual_Address_for_synchronous_exceptions_taken_to_EL2 : 64;
    };
 };
 

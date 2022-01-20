@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,24 +9,24 @@
 #define H_FPCR
 
 union fpcr {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_7_0 : 8;
-      unsigned long ioe : 1;
-      unsigned long dze : 1;
-      unsigned long ofe : 1;
-      unsigned long ufe : 1;
-      unsigned long ixe : 1;
-      unsigned long res0_14_13 : 2;
-      unsigned long ide : 1;
-      unsigned long len : 3;
-      unsigned long fz16 : 1;
-      unsigned long stride : 2;
-      unsigned long rmode : 2;
-      unsigned long fz : 1;
-      unsigned long dn : 1;
-      unsigned long ahp : 1;
-      unsigned long res0_63_27 : 37;
+      uint64 res0_7_0 : 8;
+      uint64 ioe : 1;
+      uint64 dze : 1;
+      uint64 ofe : 1;
+      uint64 ufe : 1;
+      uint64 ixe : 1;
+      uint64 res0_14_13 : 2;
+      uint64 ide : 1;
+      uint64 len : 3;
+      uint64 fz16 : 1;
+      uint64 stride : 2;
+      uint64 rmode : 2;
+      uint64 fz : 1;
+      uint64 dn : 1;
+      uint64 ahp : 1;
+      uint64 res0_63_27 : 37;
    };
 };
 

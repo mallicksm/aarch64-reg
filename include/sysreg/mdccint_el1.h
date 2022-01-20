@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_MDCCINT_EL1
 
 union mdccint_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_28_0 : 29;
-      unsigned long tx : 1;
-      unsigned long rx : 1;
-      unsigned long res0_63_31 : 33;
+      uint64 res0_28_0 : 29;
+      uint64 tx : 1;
+      uint64 rx : 1;
+      uint64 res0_63_31 : 33;
    };
 };
 

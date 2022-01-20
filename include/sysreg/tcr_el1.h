@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,48 +9,48 @@
 #define H_TCR_EL1
 
 union tcr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long t0sz : 6;
-      unsigned long res0_6 : 1;
-      unsigned long epd0 : 1;
-      unsigned long irgn0 : 2;
-      unsigned long orgn0 : 2;
-      unsigned long sh0 : 2;
-      unsigned long tg0 : 2;
-      unsigned long t1sz : 6;
-      unsigned long a1 : 1;
-      unsigned long epd1 : 1;
-      unsigned long irgn1 : 2;
-      unsigned long orgn1 : 2;
-      unsigned long sh1 : 2;
-      unsigned long tg1 : 2;
-      unsigned long ips : 3;
-      unsigned long res0_35 : 1;
-      unsigned long as : 1;
-      unsigned long tbi0 : 1;
-      unsigned long tbi1 : 1;
-      unsigned long ha : 1;
-      unsigned long hd : 1;
-      unsigned long hpd0 : 1;
-      unsigned long hpd1 : 1;
-      unsigned long hwu059 : 1;
-      unsigned long hwu060 : 1;
-      unsigned long hwu061 : 1;
-      unsigned long hwu062 : 1;
-      unsigned long hwu159 : 1;
-      unsigned long hwu160 : 1;
-      unsigned long hwu161 : 1;
-      unsigned long hwu162 : 1;
-      unsigned long tbid0 : 1;
-      unsigned long tbid1 : 1;
-      unsigned long nfd0 : 1;
-      unsigned long nfd1 : 1;
-      unsigned long e0pd0 : 1;
-      unsigned long e0pd1 : 1;
-      unsigned long tcma0 : 1;
-      unsigned long tcma1 : 1;
-      unsigned long res0_63_59 : 5;
+      uint64 t0sz : 6;
+      uint64 res0_6 : 1;
+      uint64 epd0 : 1;
+      uint64 irgn0 : 2;
+      uint64 orgn0 : 2;
+      uint64 sh0 : 2;
+      uint64 tg0 : 2;
+      uint64 t1sz : 6;
+      uint64 a1 : 1;
+      uint64 epd1 : 1;
+      uint64 irgn1 : 2;
+      uint64 orgn1 : 2;
+      uint64 sh1 : 2;
+      uint64 tg1 : 2;
+      uint64 ips : 3;
+      uint64 res0_35 : 1;
+      uint64 as : 1;
+      uint64 tbi0 : 1;
+      uint64 tbi1 : 1;
+      uint64 ha : 1;
+      uint64 hd : 1;
+      uint64 hpd0 : 1;
+      uint64 hpd1 : 1;
+      uint64 hwu059 : 1;
+      uint64 hwu060 : 1;
+      uint64 hwu061 : 1;
+      uint64 hwu062 : 1;
+      uint64 hwu159 : 1;
+      uint64 hwu160 : 1;
+      uint64 hwu161 : 1;
+      uint64 hwu162 : 1;
+      uint64 tbid0 : 1;
+      uint64 tbid1 : 1;
+      uint64 nfd0 : 1;
+      uint64 nfd1 : 1;
+      uint64 e0pd0 : 1;
+      uint64 e0pd1 : 1;
+      uint64 tcma0 : 1;
+      uint64 tcma1 : 1;
+      uint64 res0_63_59 : 5;
    };
 };
 

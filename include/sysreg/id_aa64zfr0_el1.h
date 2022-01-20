@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,17 +9,17 @@
 #define H_ID_AA64ZFR0_EL1
 
 union id_aa64zfr0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long svever : 4;
-      unsigned long res0_19_4 : 16;
-      unsigned long bf16 : 4;
-      unsigned long res0_43_24 : 20;
-      unsigned long i8mm : 4;
-      unsigned long res0_51_48 : 4;
-      unsigned long f32mm : 4;
-      unsigned long f64mm : 4;
-      unsigned long res0_63_60 : 4;
+      uint64 svever : 4;
+      uint64 res0_19_4 : 16;
+      uint64 bf16 : 4;
+      uint64 res0_43_24 : 20;
+      uint64 i8mm : 4;
+      uint64 res0_51_48 : 4;
+      uint64 f32mm : 4;
+      uint64 f64mm : 4;
+      uint64 res0_63_60 : 4;
    };
 };
 

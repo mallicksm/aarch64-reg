@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,24 +9,24 @@
 #define H_FPEXC32_EL2
 
 union fpexc32_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long iof : 1;
-      unsigned long dzf : 1;
-      unsigned long off : 1;
-      unsigned long uff : 1;
-      unsigned long ixf : 1;
-      unsigned long res0_6_5 : 2;
-      unsigned long idf : 1;
-      unsigned long vecitr : 3;
-      unsigned long res0_25_11 : 15;
-      unsigned long tfv : 1;
-      unsigned long vv : 1;
-      unsigned long fp2v : 1;
-      unsigned long dex : 1;
-      unsigned long en : 1;
-      unsigned long ex : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 iof : 1;
+      uint64 dzf : 1;
+      uint64 off : 1;
+      uint64 uff : 1;
+      uint64 ixf : 1;
+      uint64 res0_6_5 : 2;
+      uint64 idf : 1;
+      uint64 vecitr : 3;
+      uint64 res0_25_11 : 15;
+      uint64 tfv : 1;
+      uint64 vv : 1;
+      uint64 fp2v : 1;
+      uint64 dex : 1;
+      uint64 en : 1;
+      uint64 ex : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

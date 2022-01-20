@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_LORC_EL1
 
 union lorc_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long en : 1;
-      unsigned long res0_1 : 1;
-      unsigned long ds : 8;
-      unsigned long res0_63_10 : 54;
+      uint64 en : 1;
+      uint64 res0_1 : 1;
+      uint64 ds : 8;
+      uint64 res0_63_10 : 54;
    };
 };
 

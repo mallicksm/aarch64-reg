@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_RGSR_EL1
 
 union rgsr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long tag : 4;
-      unsigned long res0_7_4 : 4;
-      unsigned long seed : 16;
-      unsigned long res0_63_24 : 40;
+      uint64 tag : 4;
+      uint64 res0_7_4 : 4;
+      uint64 seed : 16;
+      uint64 res0_63_24 : 40;
    };
 };
 

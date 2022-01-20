@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_SPSEL
 
 union spsel {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long sp : 1;
-      unsigned long res0_63_1 : 63;
+      uint64 sp : 1;
+      uint64 res0_63_1 : 63;
    };
 };
 

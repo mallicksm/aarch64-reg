@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_CNTP_TVAL_EL0
 
 union cntp_tval_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long timervalue : 32;
-      unsigned long res0_63_32 : 32;
+      uint64 timervalue : 32;
+      uint64 res0_63_32 : 32;
    };
 };
 

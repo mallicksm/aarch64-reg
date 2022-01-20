@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,15 +9,15 @@
 #define H_TRFCR_EL2
 
 union trfcr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long e0htre : 1;
-      unsigned long e2tre : 1;
-      unsigned long res0_2 : 1;
-      unsigned long cx : 1;
-      unsigned long res0_4 : 1;
-      unsigned long ts : 2;
-      unsigned long res0_63_7 : 57;
+      uint64 e0htre : 1;
+      uint64 e2tre : 1;
+      uint64 res0_2 : 1;
+      uint64 cx : 1;
+      uint64 res0_4 : 1;
+      uint64 ts : 2;
+      uint64 res0_63_7 : 57;
    };
 };
 

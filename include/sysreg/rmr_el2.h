@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_RMR_EL2
 
 union rmr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long aa64 : 1;
-      unsigned long rr : 1;
-      unsigned long res0_63_2 : 62;
+      uint64 aa64 : 1;
+      uint64 rr : 1;
+      uint64 res0_63_2 : 62;
    };
 };
 

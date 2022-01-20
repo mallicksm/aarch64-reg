@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,15 +9,15 @@
 #define H_MPAMHCR_EL2
 
 union mpamhcr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long el0_vpmen : 1;
-      unsigned long el1_vpmen : 1;
-      unsigned long res0_7_2 : 6;
-      unsigned long gstapp_plk : 1;
-      unsigned long res0_30_9 : 22;
-      unsigned long trap_mpamidr_el1 : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 el0_vpmen : 1;
+      uint64 el1_vpmen : 1;
+      uint64 res0_7_2 : 6;
+      uint64 gstapp_plk : 1;
+      uint64 res0_30_9 : 22;
+      uint64 trap_mpamidr_el1 : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_CNTPCTSS_EL0
 
 union cntpctss_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Self_synchronized_physical_count_value : 64;
+      uint64 Self_synchronized_physical_count_value : 64;
    };
 };
 

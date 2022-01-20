@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,17 +9,17 @@
 #define H_MPIDR_EL1
 
 union mpidr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long aff0 : 8;
-      unsigned long aff1 : 8;
-      unsigned long aff2 : 8;
-      unsigned long mt : 1;
-      unsigned long res0_29_25 : 5;
-      unsigned long u : 1;
-      unsigned long res1_31 : 1;
-      unsigned long aff3 : 8;
-      unsigned long res0_63_40 : 24;
+      uint64 aff0 : 8;
+      uint64 aff1 : 8;
+      uint64 aff2 : 8;
+      uint64 mt : 1;
+      uint64 res0_29_25 : 5;
+      uint64 u : 1;
+      uint64 res1_31 : 1;
+      uint64 aff3 : 8;
+      uint64 res0_63_40 : 24;
    };
 };
 

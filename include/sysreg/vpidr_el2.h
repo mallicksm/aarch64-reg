@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,14 +9,14 @@
 #define H_VPIDR_EL2
 
 union vpidr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long revision : 4;
-      unsigned long partnum : 12;
-      unsigned long architecture : 4;
-      unsigned long variant : 4;
-      unsigned long implementer : 8;
-      unsigned long res0_63_32 : 32;
+      uint64 revision : 4;
+      uint64 partnum : 12;
+      uint64 architecture : 4;
+      uint64 variant : 4;
+      uint64 implementer : 8;
+      uint64 res0_63_32 : 32;
    };
 };
 

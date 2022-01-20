@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,64 +9,64 @@
 #define H_HFGITR_EL2
 
 union hfgitr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long icialluis : 1;
-      unsigned long iciallu : 1;
-      unsigned long icivau : 1;
-      unsigned long dcivac : 1;
-      unsigned long dcisw : 1;
-      unsigned long dccsw : 1;
-      unsigned long dccisw : 1;
-      unsigned long dccvau : 1;
-      unsigned long dccvap : 1;
-      unsigned long dccvadp : 1;
-      unsigned long dccivac : 1;
-      unsigned long dczva : 1;
-      unsigned long ats1e1r : 1;
-      unsigned long ats1e1w : 1;
-      unsigned long ats1e0r : 1;
-      unsigned long ats1e0w : 1;
-      unsigned long ats1e1rp : 1;
-      unsigned long ats1e1wp : 1;
-      unsigned long tlbivmalle1os : 1;
-      unsigned long tlbivae1os : 1;
-      unsigned long tlbiaside1os : 1;
-      unsigned long tlbivaae1os : 1;
-      unsigned long tlbivale1os : 1;
-      unsigned long tlbivaale1os : 1;
-      unsigned long tlbirvae1os : 1;
-      unsigned long tlbirvaae1os : 1;
-      unsigned long tlbirvale1os : 1;
-      unsigned long tlbirvaale1os : 1;
-      unsigned long tlbivmalle1is : 1;
-      unsigned long tlbivae1is : 1;
-      unsigned long tlbiaside1is : 1;
-      unsigned long tlbivaae1is : 1;
-      unsigned long tlbivale1is : 1;
-      unsigned long tlbivaale1is : 1;
-      unsigned long tlbirvae1is : 1;
-      unsigned long tlbirvaae1is : 1;
-      unsigned long tlbirvale1is : 1;
-      unsigned long tlbirvaale1is : 1;
-      unsigned long tlbirvae1 : 1;
-      unsigned long tlbirvaae1 : 1;
-      unsigned long tlbirvale1 : 1;
-      unsigned long tlbirvaale1 : 1;
-      unsigned long tlbivmalle1 : 1;
-      unsigned long tlbivae1 : 1;
-      unsigned long tlbiaside1 : 1;
-      unsigned long tlbivaae1 : 1;
-      unsigned long tlbivale1 : 1;
-      unsigned long tlbivaale1 : 1;
-      unsigned long cfprctx : 1;
-      unsigned long dvprctx : 1;
-      unsigned long cpprctx : 1;
-      unsigned long eret : 1;
-      unsigned long svc_el0 : 1;
-      unsigned long svc_el1 : 1;
-      unsigned long dccvac : 1;
-      unsigned long res0_63_55 : 9;
+      uint64 icialluis : 1;
+      uint64 iciallu : 1;
+      uint64 icivau : 1;
+      uint64 dcivac : 1;
+      uint64 dcisw : 1;
+      uint64 dccsw : 1;
+      uint64 dccisw : 1;
+      uint64 dccvau : 1;
+      uint64 dccvap : 1;
+      uint64 dccvadp : 1;
+      uint64 dccivac : 1;
+      uint64 dczva : 1;
+      uint64 ats1e1r : 1;
+      uint64 ats1e1w : 1;
+      uint64 ats1e0r : 1;
+      uint64 ats1e0w : 1;
+      uint64 ats1e1rp : 1;
+      uint64 ats1e1wp : 1;
+      uint64 tlbivmalle1os : 1;
+      uint64 tlbivae1os : 1;
+      uint64 tlbiaside1os : 1;
+      uint64 tlbivaae1os : 1;
+      uint64 tlbivale1os : 1;
+      uint64 tlbivaale1os : 1;
+      uint64 tlbirvae1os : 1;
+      uint64 tlbirvaae1os : 1;
+      uint64 tlbirvale1os : 1;
+      uint64 tlbirvaale1os : 1;
+      uint64 tlbivmalle1is : 1;
+      uint64 tlbivae1is : 1;
+      uint64 tlbiaside1is : 1;
+      uint64 tlbivaae1is : 1;
+      uint64 tlbivale1is : 1;
+      uint64 tlbivaale1is : 1;
+      uint64 tlbirvae1is : 1;
+      uint64 tlbirvaae1is : 1;
+      uint64 tlbirvale1is : 1;
+      uint64 tlbirvaale1is : 1;
+      uint64 tlbirvae1 : 1;
+      uint64 tlbirvaae1 : 1;
+      uint64 tlbirvale1 : 1;
+      uint64 tlbirvaale1 : 1;
+      uint64 tlbivmalle1 : 1;
+      uint64 tlbivae1 : 1;
+      uint64 tlbiaside1 : 1;
+      uint64 tlbivaae1 : 1;
+      uint64 tlbivale1 : 1;
+      uint64 tlbivaale1 : 1;
+      uint64 cfprctx : 1;
+      uint64 dvprctx : 1;
+      uint64 cpprctx : 1;
+      uint64 eret : 1;
+      uint64 svc_el0 : 1;
+      uint64 svc_el1 : 1;
+      uint64 dccvac : 1;
+      uint64 res0_63_55 : 9;
    };
 };
 

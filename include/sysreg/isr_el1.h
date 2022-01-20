@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_ISR_EL1
 
 union isr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_5_0 : 6;
-      unsigned long f : 1;
-      unsigned long i : 1;
-      unsigned long a : 1;
-      unsigned long res0_63_9 : 55;
+      uint64 res0_5_0 : 6;
+      uint64 f : 1;
+      uint64 i : 1;
+      uint64 a : 1;
+      uint64 res0_63_9 : 55;
    };
 };
 

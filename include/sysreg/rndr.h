@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_RNDR
 
 union rndr {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long rndr : 64;
+      uint64 rndr : 64;
    };
 };
 

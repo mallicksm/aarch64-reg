@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_LORSA_EL1
 
 union lorsa_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long valid : 1;
-      unsigned long res0_15_1 : 15;
-      unsigned long sa_47_16_ : 32;
-      unsigned long sa_51_48_ : 4;
-      unsigned long res0_63_52 : 12;
+      uint64 valid : 1;
+      uint64 res0_15_1 : 15;
+      uint64 sa_47_16_ : 32;
+      uint64 sa_51_48_ : 4;
+      uint64 res0_63_52 : 12;
    };
 };
 

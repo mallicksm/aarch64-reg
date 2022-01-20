@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,20 +9,20 @@
 #define H_CTR_EL0
 
 union ctr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long iminline : 4;
-      unsigned long res0_13_4 : 10;
-      unsigned long l1ip : 2;
-      unsigned long dminline : 4;
-      unsigned long erg : 4;
-      unsigned long cwg : 4;
-      unsigned long idc : 1;
-      unsigned long dic : 1;
-      unsigned long res0_30 : 1;
-      unsigned long res1_31 : 1;
-      unsigned long tminline : 6;
-      unsigned long res0_63_38 : 26;
+      uint64 iminline : 4;
+      uint64 res0_13_4 : 10;
+      uint64 l1ip : 2;
+      uint64 dminline : 4;
+      uint64 erg : 4;
+      uint64 cwg : 4;
+      uint64 idc : 1;
+      uint64 dic : 1;
+      uint64 res0_30 : 1;
+      uint64 res1_31 : 1;
+      uint64 tminline : 6;
+      uint64 res0_63_38 : 26;
    };
 };
 

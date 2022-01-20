@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_TTBR0_EL1
 
 union ttbr0_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long cnp : 1;
-      unsigned long baddr : 47;
-      unsigned long asid : 16;
+      uint64 cnp : 1;
+      uint64 baddr : 47;
+      uint64 asid : 16;
    };
 };
 

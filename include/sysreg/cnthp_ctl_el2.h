@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_CNTHP_CTL_EL2
 
 union cnthp_ctl_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long enable : 1;
-      unsigned long imask : 1;
-      unsigned long istatus : 1;
-      unsigned long res0_63_3 : 61;
+      uint64 enable : 1;
+      uint64 imask : 1;
+      uint64 istatus : 1;
+      uint64 res0_63_3 : 61;
    };
 };
 

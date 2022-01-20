@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_TPIDR_EL0
 
 union tpidr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long Thread_ID : 64;
+      uint64 Thread_ID : 64;
    };
 };
 

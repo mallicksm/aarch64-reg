@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,11 +9,11 @@
 #define H_ICC_IGRPEN1_EL3
 
 union icc_igrpen1_el3 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long enablegrp1ns : 1;
-      unsigned long enablegrp1s : 1;
-      unsigned long res0_63_2 : 62;
+      uint64 enablegrp1ns : 1;
+      uint64 enablegrp1s : 1;
+      uint64 res0_63_2 : 62;
    };
 };
 

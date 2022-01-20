@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,22 +9,22 @@
 #define H_FPSR
 
 union fpsr {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long ioc : 1;
-      unsigned long dzc : 1;
-      unsigned long ofc : 1;
-      unsigned long ufc : 1;
-      unsigned long ixc : 1;
-      unsigned long res0_6_5 : 2;
-      unsigned long idc : 1;
-      unsigned long res0_26_8 : 19;
-      unsigned long qc : 1;
-      unsigned long v : 1;
-      unsigned long c : 1;
-      unsigned long z : 1;
-      unsigned long n : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 ioc : 1;
+      uint64 dzc : 1;
+      uint64 ofc : 1;
+      uint64 ufc : 1;
+      uint64 ixc : 1;
+      uint64 res0_6_5 : 2;
+      uint64 idc : 1;
+      uint64 res0_26_8 : 19;
+      uint64 qc : 1;
+      uint64 v : 1;
+      uint64 c : 1;
+      uint64 z : 1;
+      uint64 n : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_PMBLIMITR_EL1
 
 union pmblimitr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long e : 1;
-      unsigned long fm : 2;
-      unsigned long res0_11_3 : 9;
-      unsigned long limit : 52;
+      uint64 e : 1;
+      uint64 fm : 2;
+      uint64 res0_11_3 : 9;
+      uint64 limit : 52;
    };
 };
 

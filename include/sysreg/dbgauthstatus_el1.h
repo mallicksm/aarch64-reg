@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_DBGAUTHSTATUS_EL1
 
 union dbgauthstatus_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long nsid : 2;
-      unsigned long nsnid : 2;
-      unsigned long sid : 2;
-      unsigned long snid : 2;
-      unsigned long res0_63_8 : 56;
+      uint64 nsid : 2;
+      uint64 nsnid : 2;
+      uint64 sid : 2;
+      uint64 snid : 2;
+      uint64 res0_63_8 : 56;
    };
 };
 

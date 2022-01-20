@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,68 +9,68 @@
 #define H_HCR_EL2
 
 union hcr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long vm : 1;
-      unsigned long swio : 1;
-      unsigned long ptw : 1;
-      unsigned long fmo : 1;
-      unsigned long imo : 1;
-      unsigned long amo : 1;
-      unsigned long vf : 1;
-      unsigned long vi : 1;
-      unsigned long vse : 1;
-      unsigned long fb : 1;
-      unsigned long bsu : 2;
-      unsigned long dc : 1;
-      unsigned long twi : 1;
-      unsigned long twe : 1;
-      unsigned long tid0 : 1;
-      unsigned long tid1 : 1;
-      unsigned long tid2 : 1;
-      unsigned long tid3 : 1;
-      unsigned long tsc : 1;
-      unsigned long tidcp : 1;
-      unsigned long tacr : 1;
-      unsigned long tsw : 1;
-      unsigned long tpcp : 1;
-      unsigned long tpu : 1;
-      unsigned long ttlb : 1;
-      unsigned long tvm : 1;
-      unsigned long tge : 1;
-      unsigned long tdz : 1;
-      unsigned long hcd : 1;
-      unsigned long trvm : 1;
-      unsigned long rw : 1;
-      unsigned long cd : 1;
-      unsigned long id : 1;
-      unsigned long e2h : 1;
-      unsigned long tlor : 1;
-      unsigned long terr : 1;
-      unsigned long tea : 1;
-      unsigned long miocnce : 1;
-      unsigned long res0_39 : 1;
-      unsigned long apk : 1;
-      unsigned long api : 1;
-      unsigned long nv : 1;
-      unsigned long nv1 : 1;
-      unsigned long at : 1;
-      unsigned long nv2 : 1;
-      unsigned long fwb : 1;
-      unsigned long fien : 1;
-      unsigned long res0_48 : 1;
-      unsigned long tid4 : 1;
-      unsigned long ticab : 1;
-      unsigned long amvoffen : 1;
-      unsigned long tocu : 1;
-      unsigned long enscxt : 1;
-      unsigned long ttlbis : 1;
-      unsigned long ttlbos : 1;
-      unsigned long ata : 1;
-      unsigned long dct : 1;
-      unsigned long tid5 : 1;
-      unsigned long tweden : 1;
-      unsigned long twedel : 4;
+      uint64 vm : 1;
+      uint64 swio : 1;
+      uint64 ptw : 1;
+      uint64 fmo : 1;
+      uint64 imo : 1;
+      uint64 amo : 1;
+      uint64 vf : 1;
+      uint64 vi : 1;
+      uint64 vse : 1;
+      uint64 fb : 1;
+      uint64 bsu : 2;
+      uint64 dc : 1;
+      uint64 twi : 1;
+      uint64 twe : 1;
+      uint64 tid0 : 1;
+      uint64 tid1 : 1;
+      uint64 tid2 : 1;
+      uint64 tid3 : 1;
+      uint64 tsc : 1;
+      uint64 tidcp : 1;
+      uint64 tacr : 1;
+      uint64 tsw : 1;
+      uint64 tpcp : 1;
+      uint64 tpu : 1;
+      uint64 ttlb : 1;
+      uint64 tvm : 1;
+      uint64 tge : 1;
+      uint64 tdz : 1;
+      uint64 hcd : 1;
+      uint64 trvm : 1;
+      uint64 rw : 1;
+      uint64 cd : 1;
+      uint64 id : 1;
+      uint64 e2h : 1;
+      uint64 tlor : 1;
+      uint64 terr : 1;
+      uint64 tea : 1;
+      uint64 miocnce : 1;
+      uint64 res0_39 : 1;
+      uint64 apk : 1;
+      uint64 api : 1;
+      uint64 nv : 1;
+      uint64 nv1 : 1;
+      uint64 at : 1;
+      uint64 nv2 : 1;
+      uint64 fwb : 1;
+      uint64 fien : 1;
+      uint64 res0_48 : 1;
+      uint64 tid4 : 1;
+      uint64 ticab : 1;
+      uint64 amvoffen : 1;
+      uint64 tocu : 1;
+      uint64 enscxt : 1;
+      uint64 ttlbis : 1;
+      uint64 ttlbos : 1;
+      uint64 ata : 1;
+      uint64 dct : 1;
+      uint64 tid5 : 1;
+      uint64 tweden : 1;
+      uint64 twedel : 4;
    };
 };
 

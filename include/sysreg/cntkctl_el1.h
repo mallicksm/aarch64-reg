@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,18 +9,18 @@
 #define H_CNTKCTL_EL1
 
 union cntkctl_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long el0pcten : 1;
-      unsigned long el0vcten : 1;
-      unsigned long evnten : 1;
-      unsigned long evntdir : 1;
-      unsigned long evnti : 4;
-      unsigned long el0vten : 1;
-      unsigned long el0pten : 1;
-      unsigned long res0_16_10 : 7;
-      unsigned long evntis : 1;
-      unsigned long res0_63_18 : 46;
+      uint64 el0pcten : 1;
+      uint64 el0vcten : 1;
+      uint64 evnten : 1;
+      uint64 evntdir : 1;
+      uint64 evnti : 4;
+      uint64 el0vten : 1;
+      uint64 el0pten : 1;
+      uint64 res0_16_10 : 7;
+      uint64 evntis : 1;
+      uint64 res0_63_18 : 46;
    };
 };
 

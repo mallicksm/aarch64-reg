@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,52 +9,52 @@
 #define H_SCTLR_EL1
 
 union sctlr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long m : 1;
-      unsigned long a : 1;
-      unsigned long c : 1;
-      unsigned long sa : 1;
-      unsigned long sa0 : 1;
-      unsigned long cp15ben : 1;
-      unsigned long naa : 1;
-      unsigned long itd : 1;
-      unsigned long sed : 1;
-      unsigned long uma : 1;
-      unsigned long enrctx : 1;
-      unsigned long eos : 1;
-      unsigned long i : 1;
-      unsigned long endb : 1;
-      unsigned long dze : 1;
-      unsigned long uct : 1;
-      unsigned long ntwi : 1;
-      unsigned long res0_17 : 1;
-      unsigned long ntwe : 1;
-      unsigned long wxn : 1;
-      unsigned long tscxt : 1;
-      unsigned long iesb : 1;
-      unsigned long eis : 1;
-      unsigned long span : 1;
-      unsigned long e0e : 1;
-      unsigned long ee : 1;
-      unsigned long uci : 1;
-      unsigned long enda : 1;
-      unsigned long ntlsmd : 1;
-      unsigned long lsmaoe : 1;
-      unsigned long enib : 1;
-      unsigned long enia : 1;
-      unsigned long res0_34_32 : 3;
-      unsigned long bt0 : 1;
-      unsigned long bt1 : 1;
-      unsigned long itfsb : 1;
-      unsigned long tcf0 : 2;
-      unsigned long tcf : 2;
-      unsigned long ata0 : 1;
-      unsigned long ata : 1;
-      unsigned long dssbs : 1;
-      unsigned long tweden : 1;
-      unsigned long twedel : 4;
-      unsigned long res0_63_50 : 14;
+      uint64 m : 1;
+      uint64 a : 1;
+      uint64 c : 1;
+      uint64 sa : 1;
+      uint64 sa0 : 1;
+      uint64 cp15ben : 1;
+      uint64 naa : 1;
+      uint64 itd : 1;
+      uint64 sed : 1;
+      uint64 uma : 1;
+      uint64 enrctx : 1;
+      uint64 eos : 1;
+      uint64 i : 1;
+      uint64 endb : 1;
+      uint64 dze : 1;
+      uint64 uct : 1;
+      uint64 ntwi : 1;
+      uint64 res0_17 : 1;
+      uint64 ntwe : 1;
+      uint64 wxn : 1;
+      uint64 tscxt : 1;
+      uint64 iesb : 1;
+      uint64 eis : 1;
+      uint64 span : 1;
+      uint64 e0e : 1;
+      uint64 ee : 1;
+      uint64 uci : 1;
+      uint64 enda : 1;
+      uint64 ntlsmd : 1;
+      uint64 lsmaoe : 1;
+      uint64 enib : 1;
+      uint64 enia : 1;
+      uint64 res0_34_32 : 3;
+      uint64 bt0 : 1;
+      uint64 bt1 : 1;
+      uint64 itfsb : 1;
+      uint64 tcf0 : 2;
+      uint64 tcf : 2;
+      uint64 ata0 : 1;
+      uint64 ata : 1;
+      uint64 dssbs : 1;
+      uint64 tweden : 1;
+      uint64 twedel : 4;
+      uint64 res0_63_50 : 14;
    };
 };
 

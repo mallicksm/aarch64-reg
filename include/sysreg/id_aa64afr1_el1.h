@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,9 +9,9 @@
 #define H_ID_AA64AFR1_EL1
 
 union id_aa64afr1_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_63_0 : 64;
+      uint64 res0_63_0 : 64;
    };
 };
 

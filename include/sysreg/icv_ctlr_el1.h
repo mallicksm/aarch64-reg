@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,19 +9,19 @@
 #define H_ICV_CTLR_EL1
 
 union icv_ctlr_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long cbpr : 1;
-      unsigned long eoimode : 1;
-      unsigned long res0_7_2 : 6;
-      unsigned long pribits : 3;
-      unsigned long idbits : 3;
-      unsigned long seis : 1;
-      unsigned long a3v : 1;
-      unsigned long res0_17_16 : 2;
-      unsigned long rss : 1;
-      unsigned long extrange : 1;
-      unsigned long res0_63_20 : 44;
+      uint64 cbpr : 1;
+      uint64 eoimode : 1;
+      uint64 res0_7_2 : 6;
+      uint64 pribits : 3;
+      uint64 idbits : 3;
+      uint64 seis : 1;
+      uint64 a3v : 1;
+      uint64 res0_17_16 : 2;
+      uint64 rss : 1;
+      uint64 extrange : 1;
+      uint64 res0_63_20 : 44;
    };
 };
 

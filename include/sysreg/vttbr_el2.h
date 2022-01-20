@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_VTTBR_EL2
 
 union vttbr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long cnp : 1;
-      unsigned long baddr : 47;
-      unsigned long vmid_7_0_ : 8;
-      unsigned long vmid_15_8_ : 8;
+      uint64 cnp : 1;
+      uint64 baddr : 47;
+      uint64 vmid_7_0_ : 8;
+      uint64 vmid_15_8_ : 8;
    };
 };
 

@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,10 +9,10 @@
 #define H_DBGDTR_EL0
 
 union dbgdtr_el0 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long lowword : 32;
-      unsigned long highword : 32;
+      uint64 lowword : 32;
+      uint64 highword : 32;
    };
 };
 

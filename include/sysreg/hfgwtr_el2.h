@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,56 +9,56 @@
 #define H_HFGWTR_EL2
 
 union hfgwtr_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long afsr0_el1 : 1;
-      unsigned long afsr1_el1 : 1;
-      unsigned long res0_2 : 1;
-      unsigned long amair_el1 : 1;
-      unsigned long apdakey : 1;
-      unsigned long apdbkey : 1;
-      unsigned long apgakey : 1;
-      unsigned long apiakey : 1;
-      unsigned long apibkey : 1;
-      unsigned long res0_10_9 : 2;
-      unsigned long contextidr_el1 : 1;
-      unsigned long cpacr_el1 : 1;
-      unsigned long csselr_el1 : 1;
-      unsigned long res0_15_14 : 2;
-      unsigned long esr_el1 : 1;
-      unsigned long far_el1 : 1;
-      unsigned long res0_18 : 1;
-      unsigned long lorc_el1 : 1;
-      unsigned long lorea_el1 : 1;
-      unsigned long res0_21 : 1;
-      unsigned long lorn_el1 : 1;
-      unsigned long lorsa_el1 : 1;
-      unsigned long mair_el1 : 1;
-      unsigned long res0_26_25 : 2;
-      unsigned long par_el1 : 1;
-      unsigned long res0_28 : 1;
-      unsigned long sctlr_el1 : 1;
-      unsigned long scxtnum_el1 : 1;
-      unsigned long scxtnum_el0 : 1;
-      unsigned long tcr_el1 : 1;
-      unsigned long tpidr_el1 : 1;
-      unsigned long tpidrro_el0 : 1;
-      unsigned long tpidr_el0 : 1;
-      unsigned long ttbr0_el1 : 1;
-      unsigned long ttbr1_el1 : 1;
-      unsigned long vbar_el1 : 1;
-      unsigned long icc_igrpenn_el1 : 1;
-      unsigned long res0_40 : 1;
-      unsigned long errselr_el1 : 1;
-      unsigned long res0_42 : 1;
-      unsigned long erxctlr_el1 : 1;
-      unsigned long erxstatus_el1 : 1;
-      unsigned long erxmiscn_el1 : 1;
-      unsigned long res0_46 : 1;
-      unsigned long erxpfgctl_el1 : 1;
-      unsigned long erxpfgcdn_el1 : 1;
-      unsigned long erxaddr_el1 : 1;
-      unsigned long res0_63_50 : 14;
+      uint64 afsr0_el1 : 1;
+      uint64 afsr1_el1 : 1;
+      uint64 res0_2 : 1;
+      uint64 amair_el1 : 1;
+      uint64 apdakey : 1;
+      uint64 apdbkey : 1;
+      uint64 apgakey : 1;
+      uint64 apiakey : 1;
+      uint64 apibkey : 1;
+      uint64 res0_10_9 : 2;
+      uint64 contextidr_el1 : 1;
+      uint64 cpacr_el1 : 1;
+      uint64 csselr_el1 : 1;
+      uint64 res0_15_14 : 2;
+      uint64 esr_el1 : 1;
+      uint64 far_el1 : 1;
+      uint64 res0_18 : 1;
+      uint64 lorc_el1 : 1;
+      uint64 lorea_el1 : 1;
+      uint64 res0_21 : 1;
+      uint64 lorn_el1 : 1;
+      uint64 lorsa_el1 : 1;
+      uint64 mair_el1 : 1;
+      uint64 res0_26_25 : 2;
+      uint64 par_el1 : 1;
+      uint64 res0_28 : 1;
+      uint64 sctlr_el1 : 1;
+      uint64 scxtnum_el1 : 1;
+      uint64 scxtnum_el0 : 1;
+      uint64 tcr_el1 : 1;
+      uint64 tpidr_el1 : 1;
+      uint64 tpidrro_el0 : 1;
+      uint64 tpidr_el0 : 1;
+      uint64 ttbr0_el1 : 1;
+      uint64 ttbr1_el1 : 1;
+      uint64 vbar_el1 : 1;
+      uint64 icc_igrpenn_el1 : 1;
+      uint64 res0_40 : 1;
+      uint64 errselr_el1 : 1;
+      uint64 res0_42 : 1;
+      uint64 erxctlr_el1 : 1;
+      uint64 erxstatus_el1 : 1;
+      uint64 erxmiscn_el1 : 1;
+      uint64 res0_46 : 1;
+      uint64 erxpfgctl_el1 : 1;
+      uint64 erxpfgcdn_el1 : 1;
+      uint64 erxaddr_el1 : 1;
+      uint64 res0_63_50 : 14;
    };
 };
 

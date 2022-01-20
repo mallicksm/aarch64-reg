@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,14 +9,14 @@
 #define H_NZCV
 
 union nzcv {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long res0_27_0 : 28;
-      unsigned long v : 1;
-      unsigned long c : 1;
-      unsigned long z : 1;
-      unsigned long n : 1;
-      unsigned long res0_63_32 : 32;
+      uint64 res0_27_0 : 28;
+      uint64 v : 1;
+      uint64 c : 1;
+      uint64 z : 1;
+      uint64 n : 1;
+      uint64 res0_63_32 : 32;
    };
 };
 

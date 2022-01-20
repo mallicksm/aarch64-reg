@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,13 +9,13 @@
 #define H_MDRAR_EL1
 
 union mdrar_el1 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long valid : 2;
-      unsigned long res0_11_2 : 10;
-      unsigned long romaddr_47_12_ : 36;
-      unsigned long romaddr_51_48_ : 4;
-      unsigned long res0_63_52 : 12;
+      uint64 valid : 2;
+      uint64 res0_11_2 : 10;
+      uint64 romaddr_47_12_ : 36;
+      uint64 romaddr_51_48_ : 4;
+      uint64 res0_63_52 : 12;
    };
 };
 

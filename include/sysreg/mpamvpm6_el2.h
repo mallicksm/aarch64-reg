@@ -1,6 +1,7 @@
 //------------------------------------------------------------------------------
 // Automatically generated header file from SysReg_xml_v86A-2020-06
 // Author: Soummya Mallick
+// Date: 1/18/2022
 // 
 //------------------------------------------------------------------------------
 
@@ -8,12 +9,12 @@
 #define H_MPAMVPM6_EL2
 
 union mpamvpm6_el2 {
-   unsigned long _;
+   uint64 _;
    struct {
-      unsigned long phypartid24 : 16;
-      unsigned long phypartid25 : 16;
-      unsigned long phypartid26 : 16;
-      unsigned long phypartid27 : 16;
+      uint64 phypartid24 : 16;
+      uint64 phypartid25 : 16;
+      uint64 phypartid26 : 16;
+      uint64 phypartid27 : 16;
    };
 };
 
